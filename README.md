@@ -1,2 +1,1 @@
-# download-youtube-video
-Download YouTube videos with JS
+# Download YouTube videos with JS
