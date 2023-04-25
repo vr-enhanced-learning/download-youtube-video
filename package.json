@@ -1,0 +1,16 @@
+{
+	"name": "download-youtube-video",
+	"version": "1.0.0",
+	"description": "Download YouTube videos with JS",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app"
+	},
+	"keywords": [
+		"youtube",
+		"video",
+		"downloader"
+	],
+	"author": "tharunoptimus",
+	"license": "ISC"
+}
