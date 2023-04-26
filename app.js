@@ -1,5 +1,5 @@
 const express = require("express")
-const youtubedl = require("youtube-dl-exec")
+const downloadYoutube = require("youtube-dl-js-wrapper")
 const path = require("path")
 const fs = require("fs").promises
 
@@ -29,7 +29,7 @@ app.get("/download/:id", async (req, res) => {
     }
 
     try {
-        await youtubedl(videoUrl, options)
+        await downloadYoutube(videoUrl, options)
         const absPath = path.resolve(`./${videoId}.mp4`)
 
         if (origin != undefined) {
