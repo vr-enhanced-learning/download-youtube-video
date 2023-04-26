@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY . /app
 
-RUN npm install && npm start
+RUN npm install
 
 EXPOSE 3003
+
+CMD ["npm", "start"]
